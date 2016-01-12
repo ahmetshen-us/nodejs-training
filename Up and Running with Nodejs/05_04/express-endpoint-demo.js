@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-
+// Creating an endpoint with Express
 app.use('/message', function(req,res) {
     console.log('user requested endpoint');
     
