@@ -1,5 +1,6 @@
 var fs = require('co-fs');
 var co = require('co');
+// Callbacks versus generators
 
 console.log('before');
 co(function* () {
