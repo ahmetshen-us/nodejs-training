@@ -1,5 +1,4 @@
 // The global object
-
 var hello = "Hello from Node js"
 var slice = hello.slice(11) 
 console.log(hello)
