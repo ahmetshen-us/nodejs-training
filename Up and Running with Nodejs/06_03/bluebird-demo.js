@@ -1,6 +1,6 @@
 var fs = require('fs');
 var Promise = require('bluebird');
-
+// Generating promises with the BlueBird library
 Promise.promisifyAll(fs);
 
 fs.readFile('./data3.json', 'utf-8', function(err, data) {
