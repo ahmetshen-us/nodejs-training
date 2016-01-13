@@ -3,6 +3,8 @@ function* generator() {
 	yield 'world';
 };
 
+// generators
+
 var iter = generator();
 console.log(iter.next().value);
 console.log(iter.next().value);
