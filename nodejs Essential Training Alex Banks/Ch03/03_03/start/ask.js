@@ -17,9 +17,9 @@ function ask(i) {
 }
 
 process.stdin.on('data', function(data) {
-process.stdout.write('\n'+data);
-process.stdout.write('\n'+data.toString());
-process.stdout.write('\n'+data.toString().trim()+'\n');
+// process.stdout.write('\n'+data);
+// process.stdout.write('\n'+data.toString());
+// process.stdout.write('\n'+data.toString().trim()+'\n');
 
 	answers.push(data.toString().trim());
 
@@ -28,6 +28,16 @@ process.stdout.write('\n'+data.toString().trim()+'\n');
 	} else {
 		process.exit();
 	}
+
+});
+
+process.on('exit', function() {
+
+	process.stdout.write("\n\n\n\n");
+
+	process.stdout.write(`Go ${answers[1]} ${answers[0]} you can finish writing ${answers[2]} later`);
+
+	process.stdout.write("\n\n\n\n");
 
 });
 
