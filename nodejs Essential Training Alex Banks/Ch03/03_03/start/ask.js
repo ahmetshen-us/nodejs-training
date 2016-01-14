@@ -22,12 +22,12 @@ process.stdout.write('\n'+data.toString());
 process.stdout.write('\n'+data.toString().trim()+'\n');
 
 	answers.push(data.toString().trim());
-  //
-	// if (answers.length < questions.length) {
-	// 	ask(answers.length);
-	// } else {
-	// 	process.exit();
-	// }
+
+	if (answers.length < questions.length) {
+		ask(answers.length);
+	} else {
+		process.exit();
+	}
 
 });
 
