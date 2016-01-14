@@ -23,3 +23,6 @@ setTimeout(function() {
 
 process.stdout.write("\n\n");
 writeWaitingPercent(percentWaited);
+
+
+//Node Core finished
