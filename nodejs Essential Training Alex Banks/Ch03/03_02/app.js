@@ -13,4 +13,3 @@ if (!user || !greeting) {
 } else {
 	console.log(`Welcome ${user}, ${greeting}`);
 }
-
