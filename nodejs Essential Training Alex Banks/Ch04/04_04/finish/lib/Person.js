@@ -1,3 +1,4 @@
+// Exporting custom modules
 var EventEmitter = require('events').EventEmitter;
 var util = require('util');
 
