@@ -1,5 +1,5 @@
 var Person = require("./lib/Person");
-
+// Exporting custom modules
 var ben = new Person("Ben Franklin");
 var george = new Person("George Washington");
 
