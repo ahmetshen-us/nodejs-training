@@ -1,7 +1,7 @@
 var express = require("express");
 var cors = require("cors");
 var bodyParser = require("body-parser");
-
+// Web Servers 
 var app = express();
 // Express post bodies and params
 var skierTerms = [
