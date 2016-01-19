@@ -1,7 +1,7 @@
 var expect = require("chai").expect;
 var tools = require("../lib/tools");
 var nock = require("nock");
-
+// Injecting dependencies with rewire
 describe("Tools", function() {
 
 	describe("printName()", function() {
@@ -33,5 +33,3 @@ describe("Tools", function() {
 	});
 
 });
-
-
