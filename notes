@@ -1,0 +1,11 @@
+
+Testing with mocha and Chai
+// Mocha gives us a Suite for describing, running and
+//  building tests but it does not give us a way to
+//   check values. That is where you might want to consider using
+// 	Chai. I'm going to go ahead and install Chai locally to this project and
+// 	I'm going ahead and send it a save-dev flag. And the reason that
+// 	I'm going to save Chai to the Dev dependencies, is because Chai is going to
+// 	 be needed to test our application. Our Dev dependencies are where we save the
+// 	 things that we need to work with an application where our
+// main dependencies, save those packages that we need for the application to actually run.
