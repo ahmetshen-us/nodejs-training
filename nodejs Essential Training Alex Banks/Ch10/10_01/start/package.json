@@ -14,7 +14,7 @@
     "Supertest",
     "Cheerio"
   ],
-  "devDependencies": {
-    "chai": "^3.4.0"
+  "dependencies": {
+    "chai": "^3.4.1"
   }
 }
