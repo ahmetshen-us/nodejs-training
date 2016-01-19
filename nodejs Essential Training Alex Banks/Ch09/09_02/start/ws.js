@@ -1,3 +1,5 @@
+// Broadcasting messages with WebSockets
+
 var WebSocketServer = require("ws").Server;
 var wss = new WebSocketServer({ port: 3000 });
 
