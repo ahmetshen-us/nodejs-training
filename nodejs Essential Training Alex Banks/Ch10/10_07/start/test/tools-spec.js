@@ -1,7 +1,8 @@
 var expect = require("chai").expect;
 var tools = require("../lib/tools");
 var nock = require("nock");
-
+// Code coverage with Istanbul
+// Code coverage with Istanbul
 describe("Tools", function() {
 
 	describe("printName()", function() {
@@ -33,5 +34,3 @@ describe("Tools", function() {
 	});
 
 });
-
-
