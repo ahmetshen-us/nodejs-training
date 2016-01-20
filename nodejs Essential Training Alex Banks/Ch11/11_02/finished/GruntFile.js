@@ -1,5 +1,5 @@
 module.exports = function(grunt) {
-
+// Converting LESS to CSS with Grunt
 	grunt.initConfig({
 		jshint: {
 			files: ["*.js", "lib/*.js", "test/*.js"],
