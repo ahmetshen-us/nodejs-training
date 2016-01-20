@@ -1,7 +1,8 @@
 var expect = require("chai").expect;
 var tools = require("../lib/tools");
 var nock = require("nock");
-
+// Advanced testing Sinon stubs
+// Advanced testing Sinon stubs
 describe("Tools", function() {
 
 	describe("printName()", function() {
@@ -33,5 +34,3 @@ describe("Tools", function() {
 	});
 
 });
-
-
