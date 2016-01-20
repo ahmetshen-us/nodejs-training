@@ -5,7 +5,7 @@ var $ = require("jquery");
 var printTerms = require("./lib/printTerms");
 
 // Bundling client scripts with Browserify
-// Bundling client scripts with Browserify
+
 $(document).ready(function () {
 
     $.getJSON('/dictionary-api', printTerms);

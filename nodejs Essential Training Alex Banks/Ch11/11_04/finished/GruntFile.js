@@ -28,7 +28,8 @@ module.exports = function(grunt) {
 				src: ["app-client.js"],
 				dest: "public/js/bundle.js"
 			}
-		}, 
+		},
+		// Rapid development with Grunt Watches
 		watch: {
 			css: {
 				files: ["less/*.less"],
@@ -45,6 +46,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-less");
 	grunt.loadNpmTasks("grunt-autoprefixer");
 	grunt.loadNpmTasks("grunt-browserify");
+	// Rapid development with Grunt Watches
 	grunt.loadNpmTasks("grunt-contrib-watch");
 
 	grunt.registerTask("css", ["less", "autoprefixer"]);
