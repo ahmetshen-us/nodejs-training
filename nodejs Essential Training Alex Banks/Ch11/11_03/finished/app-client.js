@@ -1,5 +1,9 @@
+// Bundling client scripts with Browserify
+
 var $ = require("jquery");
 var printTerms = require("./lib/printTerms");
+
+// Bundling client scripts with Browserify
 
 $(document).ready(function () {
 

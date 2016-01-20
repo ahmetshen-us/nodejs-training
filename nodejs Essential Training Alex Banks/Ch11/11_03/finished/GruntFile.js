@@ -23,6 +23,8 @@ module.exports = function(grunt) {
 				dest: "public/css/style.css"
 			}
 		},
+		// Bundling client scripts with Browserify
+
 		browserify: {
 			client: {
 				src: ["app-client.js"],

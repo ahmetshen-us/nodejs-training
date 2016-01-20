@@ -1,3 +1,4 @@
+// Bundling client scripts with Browserify
 var $ = require("jquery");
 
 module.exports = function printTerms(terms) {
