@@ -2,7 +2,7 @@ var express = require("express");
 var cors = require("cors");
 var bodyParser = require("body-parser");
 var app = express();
-
+// Checking server responses with Cheerio
 var skierTerms = [
     {
         term: "Rip",
