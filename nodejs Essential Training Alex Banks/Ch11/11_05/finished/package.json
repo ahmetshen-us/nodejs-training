@@ -4,6 +4,7 @@
   "description": "A collection of skier terms and definitions",
   "main": "app.js",
   "scripts": {
+     "_comment": "comment text goes here... Automation with npm",
     "prestart": "grunt",
     "start": "node app",
     "predev": "grunt",
